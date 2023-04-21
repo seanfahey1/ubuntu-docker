@@ -22,19 +22,25 @@ A basic [Ubuntu:kinetic (20.10)](https://hub.docker.com/_/ubuntu/tags) docker im
 - That's all
 
 ### Instructions
+
 1. Pull this repo:
    ```bash 
       git init
       git pull https://github.com/seanfahey1/ubuntu-docker.git
+      ```
 2. Build image with docker
     ```bash
    docker build -t ubuntu .
+   ```
 3. Run docker image
     ```bash
    docker run -it --rm -v $(pwd):/home ubuntu bash
+   ```
 4. Exit image
     ```bash
     exit
+    ```
 5. (Optional) Delete image to recover space
     ```bash
     docker rmi ubuntu
+    ```
