@@ -1,7 +1,7 @@
 # Ubuntu Docker
 
 
-A basic [Ubuntu:kinetic (20.10)](https://hub.docker.com/layers/library/ubuntu/kinetic/images/sha256-75d11da998393ed4a786917130c205967123f7ca8cddce2889fd9e3a0a69fcdd) docker image with custom installations for personal use.
+A basic [Ubuntu:kinetic (20.10)](https://hub.docker.com/_/ubuntu/tags) docker image with custom installations for personal use.
 - [Ubuntu Docker](#Ubuntu-Docker)
 - [Features](#Features)
 - [Installation](#Installation)
@@ -9,7 +9,12 @@ A basic [Ubuntu:kinetic (20.10)](https://hub.docker.com/layers/library/ubuntu/ki
   - [Instructions](#Instructions)
 
 # Features
-
+- apt and apt-get updated at build time
+- wget
+- curl
+- git
+- tree 
+- python3 
 
 # Installation
 ### Requirements
